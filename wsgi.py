@@ -1,5 +1,5 @@
-import imp
-from flaskr import create_app
+from flask import current_app as app
 
 if __name__ == '__main__':
-    create_app()
+    debug = False
+    app.run()
